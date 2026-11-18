@@ -1,77 +1,73 @@
 # Alcance del MVP
 
-**Estado:** inventario de cinco candidatas acordado; delimitación funcional en progreso. **El MVP completo todavía no está aprobado.**
+**Estado:** **APROBADO** — punto de control 02, 2026-11-18. Se aprobaron cinco funcionalidades. El detalle de contenido, UX y arquitectura sigue pendiente.
 
-## Inventario actual
+## 1. Introducción a los juegos de rol — Aprobada
+**Objetivo:** entender qué es jugar rol, quiénes participan y qué se puede hacer.
 
-| # | Funcionalidad | Estado de delimitación |
-|---|---|---|
-| 1 | Introducción a los juegos de rol | **Alcance funcional aprobado** |
-| 2 | Cómo funciona una partida | En definición; se acordó mantenerla breve |
-| 3 | Guía de dados y ejemplos de uso | Candidata; por delimitar |
-| 4 | Conceptos y reglas básicas (incluye glosario, mecánicas y subclases) | Candidata; por delimitar |
-| 5 | Test Vocacional del Aventurero | Candidata; concepto definido, alcance por cerrar |
+**Incluye:** explicación breve y visual de rol de mesa, director de juego y jugadores; qué se necesita; decisiones como explorar, conversar, investigar y combatir; uno o dos ejemplos interactivos simples (por ejemplo, decisiones ante una entrada vigilada y un intercambio jugador/director). Duración orientativa de lectura: 5–8 minutos, no compromiso rígido.
 
-### 1. Introducción a los juegos de rol — Aprobada
-**Objetivo:** que una persona sin experiencia comprenda qué es el rol, quiénes participan y qué puede hacer.
+**Excluye:** aventura ramificada completa, reglas exhaustivas, simulador de sesión y creación de personajes.
 
-**Incluir:**
-- Qué es el rol de mesa y la construcción compartida de historias.
-- Papel de jugadores y director de juego.
-- Qué se necesita para empezar y organización básica.
-- Ejemplos de decisiones: explorar, conversar, investigar y combatir.
-- **Guía breve** con **uno o dos ejemplos interactivos simples**: una decisión narrativa y, opcionalmente, un intercambio jugador/director.
+## 2. Cómo funciona una partida — Aprobada
+**Objetivo:** mostrar qué ocurre antes, durante y después de una sesión.
 
-**Excluir por ahora:** aventura completa ramificada, tutorial avanzado de combate o magia, comparativas extensas de sistemas y creación de personajes en esta sección.
+**Incluye:** preparación de jugadores y director, mención breve de sesión cero, secuencia narrada de unas 5–7 interacciones como referencia, decisiones y tiradas, exploración/interacción/combate, cierre de sesión y diferencia entre one-shot y campaña. Contenido breve, alrededor de 5 minutos como orientación.
 
-**Criterio de éxito:** el visitante entiende el concepto, los roles, la libertad de acción y que las tiradas se usan cuando corresponde; sabe qué explorar después.
+**Excluye:** simulador de partida, aventura extensa, guía exhaustiva para dirigir, gestión de campañas y combate avanzado.
 
-### 2. Cómo funciona una partida — En definición
-**Objetivo:** responder «si mañana me invitan a jugar, ¿qué pasa durante una sesión?».
+## 3. Guía de dados y ejemplos de uso — Aprobada
+**Objetivo:** comprender los dados habituales y cuándo usarlos.
 
-**Dirección acordada:** explicación breve, resumida y suficiente; mostrar la dinámica con un ejemplo narrado corto (aprox. 5–7 pasos como propuesta, no cifra cerrada).
+**Incluye:** d4, d6, d8, d10, d12, d20 y d100 (percentil con dos d10); notación como `1d20+3` y `2d6`; ejemplos educativos interactivos de prueba contra dificultad, ataque frente a daño y curación; interpretación del resultado. Se pueden tirar dados dentro de los ejemplos de aprendizaje.
 
-**Contenido candidato:** preparación básica; sesión cero; alternancia entre descripción, decisión, diálogo y tiradas; momentos de exploración, interacción y combate; cierre de sesión; diferencia entre **one-shot** (aventura autoconclusiva) y campaña (historia continuada).
+**Excluye:** tirador avanzado o independiente, historial, multijugador, integración con fichas y animaciones 3D obligatorias.
 
-**Excluir por ahora:** simulador de partida, aventura extensa, guía exhaustiva para dirigir, gestión de campañas y tutorial avanzado de combate.
+## 4. Conceptos y reglas básicas — Aprobada
+**Objetivo:** consultar definiciones breves y ejemplos sin leer un manual completo.
 
-**Pendiente:** aprobación final del contenido y formato de esta funcionalidad.
+**Incluye:** biblioteca categorizada y buscable:
+- **Personajes:** clases, subclases, especies, trasfondos, atributos, niveles y experiencia.
+- **Mecánicas:** pruebas de característica, salvaciones, competencia, modificadores, dificultad, ventaja/desventaja.
+- **Combate:** iniciativa, turnos, acciones, movimiento, ataques, defensa, daño y puntos de golpe.
+- **Magia y recursos:** conjuros, trucos, espacios de conjuro, concentración y descansos.
 
-### 3. Guía de dados y ejemplos de uso — Por delimitar
-**Objetivo:** explicar qué es cada dado habitual (d4, d6, d8, d10, d12, d20), para qué sirve y mostrar ejemplos contextualizados. La prioridad **no** es un tirador de dados genérico. Las pequeñas tiradas interactivas son posibles ejemplos educativos, no requisito técnico aprobado.
+Las explicaciones son generales, con **notas breves cuando existan diferencias entre D&D 2014 y 2024**; no se requiere selector obligatorio de edición ni comparaciones extensas. Explicar propósito y nivel de elección de subclases con ejemplos pertinentes.
 
-### 4. Conceptos y reglas básicas — Por delimitar
-**Objetivo:** agrupar definiciones y mecánicas relacionadas sin duplicar contenido. Incluye conceptos de personajes (clases, especies, atributos, competencias, niveles), reglas básicas (pruebas, salvaciones, ventaja/desventaja, iniciativa, combate introductorio) y **subclases**: qué son, para qué sirven, cuándo se eligen y ejemplos. Aclarar diferencias entre D&D 2014 y 2024 cuando sean relevantes.
+**Excluye:** manual completo, catálogo exhaustivo de conjuros, objetos, monstruos y subclases, optimización avanzada y comparador extenso de ediciones.
 
-### 5. Test Vocacional del Aventurero — Concepto acordado, por delimitar
-**Objetivo:** descubrir preferencias de juego y narrativas mediante preguntas, para sugerir **una clase principal y una alternativa**, con explicación breve de estilo, ventajas y desafíos; un trasfondo y una historia sugerida; y enlaces externos seleccionados para profundizar.
+**Pendiente:** lista concreta y acotada de entradas, textos, fuentes y licencias.
 
-**Preferencias a explorar:** combate cercano/a distancia, curación, apoyo, protección, atributos, estilo de juego, motivaciones y pasado del personaje.
+## 5. Test Vocacional del Aventurero — Aprobada
+**Objetivo:** ayudar a una persona nueva a descubrir qué tipo de personaje disfrutaría jugar.
 
-**Ejemplo ilustrativo:** curación + cercanía + sabiduría + pasado solitario → druida con trasfondo de ermitaño o clérigo como alternativa. No es regla fija del motor.
+**Incluye:**
+- Cuestionario de preferencias **mecánicas** (cercanía/distancia, magia, apoyo, curación, protección, resolución de problemas) y **narrativas** (motivaciones, personalidad, relación con otros, pasado).
+- Consideración de las **12 clases básicas de D&D** desde el lanzamiento; el Artífice no es requisito inicial.
+- Resultado con **una clase principal y una alternativa**, razones de afinidad, fortalezas y desafíos.
+- **Trasfondo sugerido y pequeña historia** construida con combinaciones narrativas previamente definidas, coherentes con las respuestas y sin IA generativa.
+- Recursos externos seleccionados para ampliar información sobre las clases, sujetos a revisión de idioma, edición y fuente.
+- Posibilidad de volver a realizar el cuestionario; uso sin cuenta.
 
-**Pendiente:** cuestionario (a definir por usuario y compañera), rasgos, algoritmo de afinidad, edición 2014/2024, recursos externos verificados, eventual sugerencia de especie y diseño de resultados. **No se ha aprobado un algoritmo ni una cantidad fija de preguntas.**
+**Excluye:** creación o gestión de ficha completa, subida de nivel, catálogo exhaustivo de subclases, IA para historias ilimitadas, guardado en nube y cuentas.
 
-## Fuera del núcleo inicial / etapas posteriores
-- Creador manual guiado de personajes.
-- Generador aleatorio de personajes.
-- Herramientas para directores de juego (NPC, encuentros, aventuras).
-- Gestión continua de personajes, subida de nivel, campañas, cuentas y sincronización.
-- PDF, importación/exportación y guardado: sujetos al alcance futuro de herramientas que lo requieran.
+**Pendiente de diseño:** preguntas (usuario y compañera), cantidad de preguntas, rasgos, ponderaciones, reglas de empate, catálogo de combinaciones narrativas, presentación de resultados, tratamiento preciso de 2014/2024 y curaduría de enlaces. **La recomendación de especie sigue pendiente de decisión**, no se da por aprobada. No se han aprobado porcentajes de compatibilidad ni algoritmo específico.
+
+## Fuera del MVP
+- Creador manual guiado y generador aleatorio de personajes.
+- Generadores de NPC, encuentros y aventuras; gestión de campañas.
+- Gestión permanente de personajes, cuentas y sincronización en nube.
+- Exportación de fichas, importación/exportación estructurada y persistencia avanzada (revaluar cuando exista una necesidad concreta).
+- Tirador de dados independiente y compendios exhaustivos.
 
 ## Principios transversales
-- Brevedad: explicar lo necesario sin reproducir manuales completos.
-- Aprendizaje práctico cuando agregue valor.
-- Sin cuenta obligatoria ni instalación para empezar.
-- Enfoque híbrido: rol general + D&D como referencia inicial.
-- Navegación libre; enlaces contextuales entre herramientas son una posibilidad todavía por diseñar.
-- No presentar contenido o recursos de una edición como si aplicaran automáticamente a la otra.
+- Entrada gratuita, sin login ni instalación requerida.
+- Español rioplatense natural; público inicial de Argentina.
+- Contenidos breves, claros, visuales y útiles para principiantes.
+- Cada herramienta tiene propósito propio; evitar duplicaciones.
+- Exploración libre, sin recorrido obligatorio; navegación contextual por diseñar.
+- D&D 5e como primer sistema, con diferencias 2014/2024 identificadas cuando importen.
+- Revisar permisos y licencias antes de reproducir contenido de terceros.
 
-## Categorías de priorización (para el cierre del MVP)
-- **Must have:** imprescindible para la primera versión útil.
-- **Should have:** importante, pero puede esperar.
-- **Could have:** deseable si hay tiempo.
-- **Future:** fuera del MVP.
-
-## Próxima decisión
-Cerrar alcance de la funcionalidad 2 y continuar con las funcionalidades 3, 4 y 5. Solo después aprobar el MVP completo.
+## Estado de la planificación
+**Alcance funcional aprobado; no equivale a contenido final ni a implementación.** Próximo trabajo: UX y recorridos de usuario.

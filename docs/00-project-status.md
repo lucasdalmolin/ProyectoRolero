@@ -1,34 +1,30 @@
 # Estado del proyecto
 
-**Fecha del punto de control:** 2026-11-17  
-**Fase:** planificación del producto — delimitación del MVP (en progreso).  
-**Repositorio:** `ProyectoRolero` (creado por el usuario, con documentación inicial subida).
+**Punto de control:** 02 — 2026-11-18  
+**Fase actual:** UX y recorridos de usuario (por iniciar).  
+**Fuente de verdad:** GitHub `lucasdalmolin/ProyectoRolero`.
 
 ## Hitos completados
-- Visión, público, idioma y filosofía de acceso inicial definidos.
-- Dirección funcional definida: aprender y experimentar con herramientas breves; el creador de personajes no es el eje inicial.
-- Enfoque educativo híbrido aprobado: conceptos generales de rol y D&D como primer sistema concreto.
-- Inventario de cinco funcionalidades candidatas para el MVP acordado como base de trabajo.
-- Alcance funcional de **Introducción a los juegos de rol** aprobado.
-- Dirección general de **Cómo funciona una partida** acordada: explicación breve; alcance detallado aún en revisión.
-- Test Vocacional del Aventurero definido a nivel conceptual; motor y cuestionario pendientes.
+- Visión, público inicial de Argentina, idioma rioplatense y acceso web gratuito sin login obligatorio.
+- Enfoque educativo: rol de mesa en general, con D&D 5e como primer sistema concreto y notas pertinentes de 2014/2024.
+- Inventario y **alcance funcional de las cinco herramientas del MVP aprobados**: Introducción a los juegos de rol, Cómo funciona una partida, Guía de dados, Conceptos y reglas básicas, Test Vocacional del Aventurero.
+- Revisión del MVP completada; las cinco herramientas permanecen en el alcance.
 
 ## Punto actual
-**Funcionalidad 2 de 5: Cómo funciona una partida.** Se prefiere una explicación resumida, con ejemplo narrado corto; queda pendiente confirmar su alcance final. Se incluirá una explicación breve de *one-shot* y campaña.
+El alcance funcional del MVP está **aprobado**. Los contenidos finales, UX, motor del test y arquitectura todavía no están diseñados ni implementados.
 
 ## Próximos pasos
-1. Terminar de delimitar y aprobar **Cómo funciona una partida**.
-2. Delimitar **Guía de dados y ejemplos de uso**.
-3. Delimitar **Conceptos y reglas básicas**, incluyendo subclases y diferencias 2014/2024.
-4. Delimitar **Test Vocacional del Aventurero** a nivel de MVP (sin diseñar todavía el cuestionario ni el algoritmo).
-5. Aprobar alcance total del MVP; después abordar recorridos de usuario, modelo de contenido, licencias y arquitectura.
+1. Diseñar UX, navegación y recorridos para las cinco herramientas, sin recorrido obligatorio.
+2. Definir dominio y contenido, incluyendo motor de afinidad del test y diferencias de ediciones.
+3. Investigar licencias y fuentes de contenido D&D.
+4. Elegir arquitectura y stack a partir de los requisitos.
+5. Implementar incrementalmente y validar con principiantes.
 
 ## Pendiente / no decidido
-- Navegación entre herramientas y sugerencias contextuales (sin recorrido obligatorio).
-- Catálogo de rasgos, puntuación y motor v1 del test; preguntas a cargo del usuario y su compañera.
-- Si el test recomienda especies; todavía no definido.
-- Selección y revisión de enlaces externos por clase, edición, idioma y licencias.
-- Persistencia, exportación, backend, stack y hosting.
-- Revisión del contenido permitido en SRD 2014/2024.
+- Navegación contextual, pantallas, buscador y estados de interacción.
+- Preguntas del test (a cargo del usuario y su compañera), rasgos, ponderaciones y desempates.
+- Si el test recomienda especies: **pendiente**.
+- Curaduría de enlaces externos, contenido permitido en SRD 2014/2024 y combinaciones narrativas.
+- Persistencia, exportación, backend, stack, hosting y PWA/offline.
 
-> Este archivo refleja decisiones conversadas hasta este punto de control. No implica que los cambios ya estén subidos al repositorio remoto.
+> No confundir el alcance funcional aprobado con decisiones técnicas o diseños aún pendientes.

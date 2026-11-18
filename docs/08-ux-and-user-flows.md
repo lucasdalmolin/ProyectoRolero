@@ -19,6 +19,8 @@
 - Estética sobria y minimalista: evitar decoraciones y animaciones excesivas; priorizar claridad, legibilidad y navegación.
 - El esfuerzo principal de diseño y la personalidad más rica deben concentrarse **dentro de las herramientas**, sus interacciones y resultados.
 
+- **Navegación principal aprobada:** únicamente **Inicio** y **Acerca de**. No hay sección separada «Herramientas»: el catálogo por categorías se muestra directamente en Inicio. El logo enlaza a Inicio y cada herramienta debe ofrecer regreso claro al catálogo.
+
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.
 2. Persona que necesita saber qué ocurre en una partida y cómo prepararse.

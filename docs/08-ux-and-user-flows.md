@@ -23,6 +23,12 @@
 
 - **Páginas independientes aprobadas:** cada herramienta se abre en su propia página desde una tarjeta del catálogo de Inicio. Comparten navegación y una forma clara de volver, pero cada una puede tener interacciones y presentación propias.
 
+- **Aprendizaje progresivo e interactivo aprobado:** para las guías educativas, preferir secciones tipo acordeón, con títulos claros, texto breve y posibilidad de abrir, cerrar y saltear libremente.
+- **Interacciones breves y significativas:** ejemplos de decisiones o demostraciones cuando faciliten la comprensión; no imponer un minijuego en cada sección.
+- **Enlaces contextuales entre herramientas:** conectar conceptos relacionados (por ejemplo, la sección sobre dados en Introducción al rol con la Guía de dados), evitando repetir explicaciones extensas.
+- **Motivación de diseño:** reducir la barrera de entrada causada por fuentes con exceso de texto, reglas y normas; permitir profundización gradual y a demanda.
+- **Prototipo conceptual de Introducción al rol:** acordeón con «¿Qué es un juego de rol?», «¿Quiénes participan?», «¿Qué necesitás para jugar?», «¿Qué podés hacer en una partida?» y «¿Y los dados?». Títulos y contenidos sujetos a revisión.
+
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.
 2. Persona que necesita saber qué ocurre en una partida y cómo prepararse.

@@ -21,6 +21,8 @@
 
 - **Navegación principal aprobada:** únicamente **Inicio** y **Acerca de**. No hay sección separada «Herramientas»: el catálogo por categorías se muestra directamente en Inicio. El logo enlaza a Inicio y cada herramienta debe ofrecer regreso claro al catálogo.
 
+- **Páginas independientes aprobadas:** cada herramienta se abre en su propia página desde una tarjeta del catálogo de Inicio. Comparten navegación y una forma clara de volver, pero cada una puede tener interacciones y presentación propias.
+
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.
 2. Persona que necesita saber qué ocurre en una partida y cómo prepararse.

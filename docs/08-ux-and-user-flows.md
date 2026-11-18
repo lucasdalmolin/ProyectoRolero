@@ -37,6 +37,8 @@
 
 - **«Cómo funciona una partida» — enfoque aprobado:** historia continua y breve, dividida en acordeones, siguiendo a un mismo personaje para facilitar la comprensión. Combinar observación de la partida con **una o dos decisiones interactivas** y consecuencias narrativas cortas que expliquen cómo responde el director de juego. Integrar las explicaciones sin bloques extensos de reglas; mantener libre el acceso a las secciones. Ejemplo posible: preparación, taberna, decisiones, tirada y cierre. El personaje es un recurso narrativo de la guía, no una mascota ni identidad oficial. Los detalles de la historia siguen pendientes.
 
+- **«Guía de dados» — UX aprobada:** dado interactivo como protagonista; elegir d4, d6, d8, d10, d12, d20 o d100, ver una explicación breve de su uso y tirar para observar el resultado. Complementar con ejemplos cortos e interactivos de pruebas de habilidad, ataques frente a daño y curación; explicaciones progresivas tipo acordeón. Enfocar el uso en aprendizaje, no convertirlo en un tirador avanzado independiente. Diseño visual de dados pendiente.
+
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.
 2. Persona que necesita saber qué ocurre en una partida y cómo prepararse.

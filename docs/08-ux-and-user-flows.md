@@ -1,6 +1,6 @@
 # UX y recorridos de usuario
 
-**Estado:** próxima etapa; **diseño todavía pendiente**. El alcance funcional de las cinco herramientas fue aprobado en el punto de control 02.
+**Estado:** etapa en curso; decisiones iniciales de catálogo y presentación aprobadas. El alcance funcional de las cinco herramientas fue aprobado en el punto de control 02.
 
 ## Principios aprobados
 - Entrada gratuita desde navegador, sin cuenta ni instalación.
@@ -8,6 +8,16 @@
 - Contenido breve, accesible y adaptable a dispositivos móviles.
 - Herramientas con objetivos diferenciados y sin duplicación innecesaria.
 - Exploración libre, sin un camino obligatorio. Los enlaces contextuales concretos se diseñarán en esta etapa.
+
+## Decisiones de UX aprobadas — 2026-11-18
+- Inspiración de Bárdica tanto en estética como en organización, con identidad propia para Rolero.
+- Página inicial orientada a descubrir herramientas de forma directa, con introducción breve y sin recorrido obligatorio. Estructura exacta de la portada todavía por definir.
+- **Catálogo agrupado por categorías desde el MVP**, para facilitar escalabilidad y evitar una lista indiscriminada.
+- Agrupación inicial propuesta: **Aprendé a jugar** (Introducción al rol, Cómo funciona una partida, Guía de dados, Conceptos y reglas) y **Descubrí tu personaje** (Test Vocacional). Los nombres de categorías no son definitivos.
+- Tarjetas simples con ícono, nombre y descripción corta; acceso claro a la herramienta.
+- Íconos sencillos y con personalidad, potencialmente dibujados a mano por el creador. Pueden usarse íconos provisionales al principio.
+- Estética sobria y minimalista: evitar decoraciones y animaciones excesivas; priorizar claridad, legibilidad y navegación.
+- El esfuerzo principal de diseño y la personalidad más rica deben concentrarse **dentro de las herramientas**, sus interacciones y resultados.
 
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.

@@ -31,6 +31,8 @@
 
 - **Comportamiento de acordeones aprobado:** se pueden mantener varias secciones abiertas simultáneamente; cada sección se abre/cierra independientemente, sin cerrar las demás. Mantener títulos visibles y controles accesibles tanto en escritorio como en móvil.
 
+- **Ambientación de ejemplos aprobada:** situaciones clásicas y reconocibles de fantasía medieval (guardias de castillo, tabernas, cofres de mazmorra, dragones, obstáculos de aventureros). Mantener ejemplos breves, interactivos y al servicio de un concepto, sin convertirlos en aventuras completas.
+
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.
 2. Persona que necesita saber qué ocurre en una partida y cómo prepararse.

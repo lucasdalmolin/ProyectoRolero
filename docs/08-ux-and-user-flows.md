@@ -1,21 +1,29 @@
 # UX y recorridos de usuario
 
-**Estado: pendiente de diseño.**
+**Estado:** próxima etapa; **diseño todavía pendiente**. El alcance funcional de las cinco herramientas fue aprobado en el punto de control 02.
 
 ## Principios aprobados
-- Entrada sin cuenta ni instalación.
-- Explicaciones comprensibles para quien nunca jugó rol.
-- Lenguaje rioplatense natural.
-- Experiencia adaptable a pantallas móviles.
+- Entrada gratuita desde navegador, sin cuenta ni instalación.
+- Público principiante en Argentina; español rioplatense natural.
+- Contenido breve, accesible y adaptable a dispositivos móviles.
+- Herramientas con objetivos diferenciados y sin duplicación innecesaria.
+- Exploración libre, sin un camino obligatorio. Los enlaces contextuales concretos se diseñarán en esta etapa.
 
-## Recorridos a diseñar
-1. Persona sin experiencia que entra por primera vez.
-2. Persona que quiere entender qué necesita para empezar a jugar.
-3. Persona que crea su primer personaje (si se incluye en el MVP).
-4. Persona que vuelve a editar o descargar un personaje, si se habilita persistencia.
+## Recorridos del MVP a diseñar
+1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.
+2. Persona que necesita saber qué ocurre en una partida y cómo prepararse.
+3. Persona que quiere entender dados, tiradas y resultados mediante ejemplos.
+4. Persona que consulta un concepto o regla y necesita identificar diferencias 2014/2024.
+5. Persona que realiza el Test Vocacional y comprende su clase principal, alternativa, trasfondo e historia sugerida.
+6. Persona que entra directamente a una herramienta y explora otras sin recorrido obligatorio.
 
-## Aspectos a validar
-- Cuánta información explicar en cada paso sin abrumar.
-- Cómo mostrar diferencias de edición (2014/2024).
-- Cómo comunicar los límites del almacenamiento local.
-- Cómo recuperar/exportar el trabajo sin registrarse.
+## Aspectos por decidir
+- Arquitectura de información, página inicial, acceso a herramientas y navegación contextual.
+- Pantallas, pasos, progreso y salida/retoma del test sin cuenta.
+- Cómo mostrar resultados y enlaces externos del test.
+- Buscador y organización del glosario de reglas.
+- Cómo mostrar notas de edición sin sobrecargar las explicaciones.
+- Diseño responsive, accesibilidad y pruebas con principiantes.
+
+## Fuera de los recorridos del MVP
+La creación, edición, guardado y descarga de fichas de personajes pertenece a etapas posteriores; no diseñarla como si formara parte del MVP aprobado.

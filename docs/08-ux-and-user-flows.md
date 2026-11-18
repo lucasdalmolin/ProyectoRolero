@@ -35,6 +35,8 @@
 
 - **Estado inicial de los acordeones aprobado:** al ingresar a una guía educativa, la primera sección aparece abierta y las restantes cerradas. Luego cada persona puede abrir o cerrar cualquier sección de manera independiente, manteniendo varias abiertas simultáneamente.
 
+- **Propuesta en evaluación para «Cómo funciona una partida»:** historia continua, corta y dividida en acordeones, siguiendo a un mismo personaje para reducir confusión. Ejemplo posible: preparación, comienzo en taberna, decisiones, una tirada y cierre de sesión. **No aprobada todavía**; el personaje sería un recurso narrativo de esa guía, no una mascota ni identidad oficial.
+
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.
 2. Persona que necesita saber qué ocurre en una partida y cómo prepararse.

@@ -39,6 +39,9 @@
 
 - **«Guía de dados» — UX aprobada:** dado interactivo como protagonista; elegir d4, d6, d8, d10, d12, d20 o d100, ver una explicación breve de su uso y tirar para observar el resultado. Complementar con ejemplos cortos e interactivos de pruebas de habilidad, ataques frente a daño y curación; explicaciones progresivas tipo acordeón. Enfocar el uso en aprendizaje, no convertirlo en un tirador avanzado independiente. Diseño visual de dados pendiente.
 
+- **«Conceptos y reglas básicas» — preferencia de UX:** organizar el aprendizaje por temas estructurados, no como diccionario plano. Propuesta inicial: «Tu personaje», «Cómo funcionan las tiradas», «Combate» y «Magia y descansos», con conceptos breves en acordeones. Los nombres y el detalle están pendientes de revisión; buscador no es prioridad inicial.
+- **«Guía de dados» — prioridad de diseño baja por ahora:** conservar el enfoque interactivo simple aprobado, sin profundizar ni cerrar detalles visuales o funcionales hasta una revisión posterior.
+
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.
 2. Persona que necesita saber qué ocurre en una partida y cómo prepararse.

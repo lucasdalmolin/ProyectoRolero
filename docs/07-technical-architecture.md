@@ -1,6 +1,6 @@
 # Arquitectura técnica
 
-**Estado: pendiente de definición.** No hay stack aprobado.
+**Estado: stack frontend base aprobado; decisión de estilos pendiente.**
 
 ## Requisitos a evaluar
 - Aplicación web responsive y accesible desde navegador.
@@ -17,4 +17,11 @@
 - Hosting, CI/CD, testing y observabilidad.
 - Condiciones para introducir backend y base de datos.
 
-No seleccionar tecnologías antes de cerrar requisitos del MVP.
+## Stack frontend aprobado (2026-11-19)
+- React + TypeScript + Vite.
+- React Router para navegación.
+- CSS Modules fue la opción inicial, pero se está evaluando Tailwind CSS como alternativa por rapidez de iteración y trabajo asistido por IA; **no dar Tailwind por aprobado todavía**.
+- Priorizar funcionalidad y componentes reutilizables; estética definitiva en iteraciones posteriores.
+- Sin backend ni base de datos para el primer incremento; reconsiderar cuando exista necesidad concreta.
+
+No seleccionar tecnologías adicionales sin una necesidad del MVP.

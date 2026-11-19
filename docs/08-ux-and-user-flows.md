@@ -46,6 +46,8 @@
 
 - **Pantalla de resultados del test — propuesta a evaluar:** clase principal con imagen y explicación de afinidad, historia breve sugerida y una clase alternativa; sin porcentajes de compatibilidad ficticios. Considerar enlaces de aprendizaje y repetir test. No aprobado aún el diseño concreto.
 
+- **Resultado del test — decisión aprobada:** la historia de origen sugerida debe poder desplegarse a voluntad, en vez de ocupar espacio permanentemente. Criterio UX recomendado: clase principal y justificación visibles sin interacción; contenido narrativo opcional detrás de un desplegable con título descriptivo. Evitar acordeones para información imprescindible y clics repetitivos para completar una lectura; validar con pruebas de usuarios cuando haya prototipo.
+
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.
 2. Persona que necesita saber qué ocurre en una partida y cómo prepararse.

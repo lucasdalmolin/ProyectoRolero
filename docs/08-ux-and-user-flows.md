@@ -71,3 +71,5 @@ La creación, edición, guardado y descarga de fichas de personajes pertenece a 
 - **Proceso de decisión solicitado:** fundamentar futuras opiniones en evidencia, investigaciones o principios documentados cuando existan; distinguir evidencia, recomendación e hipótesis pendiente de validación.
 
 - **Pantalla de resultados del Test Vocacional — acciones aprobadas:** «Conocer mi clase» como acción principal; «Compartir resultado» y «Repetir test» como acciones secundarias. Compartir interesa especialmente para facilitar que más personas descubran Rolero. Para MVP, propuesta simple de compartir clase obtenida y enlace a Rolero sin cuenta; formato exacto del mensaje y comportamiento técnico por definir. Imagen personalizada para redes queda como posible iteración posterior, no como requisito MVP.
+
+- **Compartir resultado — MVP aprobado:** compartir un mensaje de texto sencillo con la clase obtenida y un enlace al test de Rolero, sin registro ni página pública personalizada de resultados. La redacción exacta y el mecanismo técnico (compartir nativo/copia) quedan para implementación; imágenes y enlaces a páginas individuales de resultados se posponen.

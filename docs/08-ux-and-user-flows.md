@@ -66,3 +66,6 @@
 
 ## Fuera de los recorridos del MVP
 La creación, edición, guardado y descarga de fichas de personajes pertenece a etapas posteriores; no diseñarla como si formara parte del MVP aprobado.
+
+- **Criterio transversal de UX aprobado:** cada interacción debe aportar valor; evitar clics obligatorios para revelar información esencial y reservar desplegables para profundización opcional. Priorizar curiosidad y comprensión sobre cantidad de interacciones.
+- **Proceso de decisión solicitado:** fundamentar futuras opiniones en evidencia, investigaciones o principios documentados cuando existan; distinguir evidencia, recomendación e hipótesis pendiente de validación.

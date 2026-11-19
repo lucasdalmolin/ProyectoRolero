@@ -69,3 +69,5 @@ La creación, edición, guardado y descarga de fichas de personajes pertenece a 
 
 - **Criterio transversal de UX aprobado:** cada interacción debe aportar valor; evitar clics obligatorios para revelar información esencial y reservar desplegables para profundización opcional. Priorizar curiosidad y comprensión sobre cantidad de interacciones.
 - **Proceso de decisión solicitado:** fundamentar futuras opiniones en evidencia, investigaciones o principios documentados cuando existan; distinguir evidencia, recomendación e hipótesis pendiente de validación.
+
+- **Pantalla de resultados del Test Vocacional — acciones aprobadas:** «Conocer mi clase» como acción principal; «Compartir resultado» y «Repetir test» como acciones secundarias. Compartir interesa especialmente para facilitar que más personas descubran Rolero. Para MVP, propuesta simple de compartir clase obtenida y enlace a Rolero sin cuenta; formato exacto del mensaje y comportamiento técnico por definir. Imagen personalizada para redes queda como posible iteración posterior, no como requisito MVP.

@@ -1,7 +1,7 @@
 # Estado del proyecto
 
 **Punto de control:** 03 — 2026-11-19  
-**Fase actual:** UX y recorridos de usuario (avanzada; cierre pendiente).  
+**Fase actual:** preparación técnica y primer incremento de desarrollo.  
 **Fuente de verdad:** GitHub `lucasdalmolin/ProyectoRolero`.
 
 ## Hitos completados
@@ -11,13 +11,13 @@
 - Revisión del MVP completada; las cinco herramientas permanecen en el alcance.
 
 ## Punto actual
-El alcance funcional del MVP está **aprobado**. La UX inicial está mayormente definida en `08-ux-and-user-flows.md`; siguen pendientes contenidos finales, motor del test, licencias, arquitectura e implementación.
+El alcance funcional del MVP está **aprobado**. La UX inicial se considera suficientemente definida para comenzar desarrollo incremental, con detalles revisables en `08-ux-and-user-flows.md`; siguen pendientes contenidos finales, motor del test, licencias, arquitectura e implementación.
 
 ## Próximos pasos
-1. Diseñar UX, navegación y recorridos para las cinco herramientas, sin recorrido obligatorio.
+1. UX inicial cerrada para iniciar implementación; iterar con pruebas de usuarios.
 2. Definir dominio y contenido, incluyendo motor de afinidad del test y diferencias de ediciones.
 3. Investigar licencias y fuentes de contenido D&D.
-4. Elegir arquitectura y stack a partir de los requisitos.
+4. Elegir arquitectura y stack a partir de los requisitos (siguiente decisión).
 5. Implementar incrementalmente y validar con principiantes.
 
 ## Pendiente / no decidido

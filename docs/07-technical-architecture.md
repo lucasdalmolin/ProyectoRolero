@@ -26,7 +26,7 @@
 
 No seleccionar tecnologías adicionales sin una necesidad del MVP.
 
-## Estructura de código propuesta (pendiente de aprobación)
+## Estructura de código aprobada (evolutiva)
 - `src/app/`: configuración de aplicación y rutas.
 - `src/components/layout/` y `src/components/ui/`: componentes compartidos.
 - `src/features/`: herramientas independientes (`intro-rol`, `como-jugar`, `dados`, `reglas`, `test-vocacional`).
@@ -34,3 +34,11 @@ No seleccionar tecnologías adicionales sin una necesidad del MVP.
 - `src/data/`: catálogo de herramientas y datos transversales.
 - `src/styles/`: estilos globales de Tailwind.
 - Crear directorios según necesidad, evitando estructura vacía prematura.
+
+## Escalabilidad y evolución (criterios de arquitectura)
+- La organización por funcionalidades fue aprobada. Cada herramienta mantiene UI, estado y lógica específica cerca de sí misma, sin importar directamente detalles internos de otras herramientas.
+- Para futuras reglas 2014/2024, separar contenido y modelos del sistema/edición de los componentes de presentación. Identificar sistema, edición y fuente en los datos; evitar condiciones de edición dispersas por la UI. El modelo exacto sigue pendiente.
+- Cuando existan reglas/modelos compartidos entre herramientas, evaluar `src/domain/` (por ejemplo `rules/`, `characters/`); no crearlo vacío por anticipado.
+- Si se agrega backend, evaluar `src/services/` o adaptadores de API para aislar llamadas HTTP y contratos. Backend Java/Spring Boot y base de datos son posibilidades posteriores, no componentes del primer incremento.
+- La estructura futura podría separar `frontend/` y `backend/` en un mismo repositorio, pero **no es obligatorio ni está decidido aún**; mantener `src/` en raíz mientras el proyecto sea frontend-only.
+- Escalabilidad también requiere pruebas, contratos claros, bajo acoplamiento y migraciones de datos cuando correspondan; carpetas por sí solas no la garantizan.

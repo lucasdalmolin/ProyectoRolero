@@ -42,7 +42,9 @@
 - **«Conceptos y reglas básicas» — preferencia de UX:** organizar el aprendizaje por temas estructurados, no como diccionario plano. Propuesta inicial: «Tu personaje», «Cómo funcionan las tiradas», «Combate» y «Magia y descansos», con conceptos breves en acordeones. Los nombres y el detalle están pendientes de revisión; buscador no es prioridad inicial.
 - **«Guía de dados» — prioridad de diseño baja por ahora:** conservar el enfoque interactivo simple aprobado, sin profundizar ni cerrar detalles visuales o funcionales hasta una revisión posterior.
 
-- **«Test Vocacional del Aventurero» — dirección UX recomendada a validar:** una pregunta por pantalla, barra de progreso, navegación Anterior/Siguiente, respuestas modificables, sin límite de tiempo ni puntuación visible durante el test; resultado explicado. Sugerencia tentativa de 8–12 preguntas, a definir al crear el contenido. Las preguntas y algoritmo quedan pendientes de trabajo con el usuario y su colaboradora.
+- **«Test Vocacional del Aventurero» — flujo UX aprobado:** una pregunta por pantalla, barra de progreso, navegación Anterior/Siguiente, respuestas modificables, sin límite de tiempo ni puntuación visible durante el test; resultado explicado. Sugerencia tentativa de 8–12 preguntas, a definir al crear el contenido. El usuario y su compañera harán una revisión manual detallada del test; preguntas, puntuación, algoritmo y textos finales quedan pendientes de ese trabajo.
+
+- **Pantalla de resultados del test — propuesta a evaluar:** clase principal con imagen y explicación de afinidad, historia breve sugerida y una clase alternativa; sin porcentajes de compatibilidad ficticios. Considerar enlaces de aprendizaje y repetir test. No aprobado aún el diseño concreto.
 
 ## Recorridos del MVP a diseñar
 1. Persona sin experiencia que visita Rolero por primera vez y quiere entender qué es el rol.

@@ -1,6 +1,6 @@
 # Arquitectura técnica
 
-**Estado: stack frontend base aprobado; decisión de estilos pendiente.**
+**Estado: stack frontend aprobado; estructura de carpetas propuesta pendiente de validación.**
 
 ## Requisitos a evaluar
 - Aplicación web responsive y accesible desde navegador.
@@ -20,8 +20,17 @@
 ## Stack frontend aprobado (2026-11-19)
 - React + TypeScript + Vite.
 - React Router para navegación.
-- CSS Modules fue la opción inicial, pero se está evaluando Tailwind CSS como alternativa por rapidez de iteración y trabajo asistido por IA; **no dar Tailwind por aprobado todavía**.
+- Tailwind CSS **aprobado** para estilos y diseño responsive, priorizando iteración funcional y trabajo asistido por IA. CSS Modules no es la opción principal.
 - Priorizar funcionalidad y componentes reutilizables; estética definitiva en iteraciones posteriores.
 - Sin backend ni base de datos para el primer incremento; reconsiderar cuando exista necesidad concreta.
 
 No seleccionar tecnologías adicionales sin una necesidad del MVP.
+
+## Estructura de código propuesta (pendiente de aprobación)
+- `src/app/`: configuración de aplicación y rutas.
+- `src/components/layout/` y `src/components/ui/`: componentes compartidos.
+- `src/features/`: herramientas independientes (`intro-rol`, `como-jugar`, `dados`, `reglas`, `test-vocacional`).
+- `src/pages/`: páginas Inicio y Acerca de.
+- `src/data/`: catálogo de herramientas y datos transversales.
+- `src/styles/`: estilos globales de Tailwind.
+- Crear directorios según necesidad, evitando estructura vacía prematura.

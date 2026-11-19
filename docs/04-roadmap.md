@@ -6,9 +6,9 @@ El roadmap es incremental. Las etapas no equivalen a fechas comprometidas. El or
 |---|---|---|
 | 1. Visión del producto | Identidad, público y principios | Completada |
 | 2. Inventario y alcance del MVP | Delimitar y aprobar las cinco funcionalidades | **Completada — punto de control 02** |
-| 3. UX y recorridos de usuario | Navegación, flujos de principiantes, estados y prototipos | **En curso — avanzada** |
+| 3. UX y recorridos de usuario | Navegación, flujos de principiantes, estados y prototipos | **Completada para iniciar desarrollo; iterativa** |
 | 4. Dominio y contenido | Entidades, contenido, motor del test, ediciones y licencias | Pendiente |
-| 5. Arquitectura técnica | Módulos, persistencia, stack y despliegue | Pendiente |
+| 5. Arquitectura técnica | Módulos, persistencia, stack y despliegue | **En curso** |
 | 6. Diseño e implementación | Desarrollo incremental de las cinco herramientas | Pendiente |
 | 7. Validación y lanzamiento | Pruebas con principiantes, accesibilidad, revisión y publicación | Pendiente |
 

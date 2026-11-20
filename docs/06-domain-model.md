@@ -14,3 +14,10 @@
 - ¿Cómo versionar datos exportados para permitir importación futura?
 
 La definición de entidades y relaciones dependerá del alcance aprobado del MVP y del contenido legalmente utilizable.
+
+## Propuesta para validar — modelo de sistemas y ediciones (2026-11-20)
+- Separar `GameSystem` (ej. D&D), `Ruleset` (sistema + edición, ej. 5e 2014 y 5e 2024) y `ContentEntry` (conceptos, clases, reglas, trasfondos).
+- Identificadores estables y no dependientes del texto visible, por ejemplo `druid`; las variantes de contenido pueden depender del ruleset.
+- Asociar fuente y licencia/permiso al contenido antes de publicarlo. Separar guías originales de Rolero de material derivado o reproducido de terceros.
+- Para MVP, considerar contenido local tipado y sin base de datos, con acceso mediante funciones de consulta; esquema exacto y alcance del soporte 2024 pendientes de aprobación.
+- No asumir que todas las reglas o clases tienen una correspondencia uno-a-uno entre ediciones o sistemas. Mantener el modelo extensible sin crear abstracciones innecesarias.

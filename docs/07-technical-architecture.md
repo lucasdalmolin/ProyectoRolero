@@ -48,3 +48,11 @@ No seleccionar tecnologías adicionales sin una necesidad del MVP.
 - No implementar aún un motor multirreglas, adaptadores para Pathfinder, selector 2014/2024 ni estructuras complejas hipotéticas.
 - El soporte futuro de 2024 u otros sistemas requerirá trabajo adicional y posiblemente refactorización; arquitectura extensible no implica compatibilidad automática.
 - Aplicar YAGNI: construir capacidades reales del MVP y extender mediante necesidades concretas.
+
+## Persistencia y contenido inicial — aprobado (2026-11-20)
+- Para el MVP, contenido local versionado en Git; no se requiere backend ni base de datos.
+- Datos estructurados (catálogo, clases, conceptos, trasfondos, preguntas y opciones del test) en JSON o módulos TypeScript tipados según necesidad.
+- Interacciones y cálculos en funciones TypeScript, separados de los datos y de la presentación.
+- Guías educativas en componentes React con separación de contenido cuando aporte claridad; no imponer un único formato para todo.
+- Aislar el acceso a datos detrás de funciones o módulos para facilitar sustitución futura por API, sin construir hoy una capa de infraestructura compleja.
+- La migración futura a backend no será automática: requerirá contratos, gestión de errores y posibles adaptaciones.

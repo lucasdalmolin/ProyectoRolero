@@ -42,3 +42,9 @@ No seleccionar tecnologías adicionales sin una necesidad del MVP.
 - Si se agrega backend, evaluar `src/services/` o adaptadores de API para aislar llamadas HTTP y contratos. Backend Java/Spring Boot y base de datos son posibilidades posteriores, no componentes del primer incremento.
 - La estructura futura podría separar `frontend/` y `backend/` en un mismo repositorio, pero **no es obligatorio ni está decidido aún**; mantener `src/` en raíz mientras el proyecto sea frontend-only.
 - Escalabilidad también requiere pruebas, contratos claros, bajo acoplamiento y migraciones de datos cuando correspondan; carpetas por sí solas no la garantizan.
+
+## Alcance aprobado de compatibilidad futura (2026-11-20)
+- MVP exclusivamente con reglas D&D 5e 2014. Diseñar límites claros entre contenido, dominio e interfaz, y etiquetar contenido dependiente de sistema/edición.
+- No implementar aún un motor multirreglas, adaptadores para Pathfinder, selector 2014/2024 ni estructuras complejas hipotéticas.
+- El soporte futuro de 2024 u otros sistemas requerirá trabajo adicional y posiblemente refactorización; arquitectura extensible no implica compatibilidad automática.
+- Aplicar YAGNI: construir capacidades reales del MVP y extender mediante necesidades concretas.

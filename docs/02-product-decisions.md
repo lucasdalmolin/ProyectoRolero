@@ -38,5 +38,6 @@
 | D-032 | Test vocacional: lógica determinista de afinidad; diseño exacto del algoritmo pendiente | Dirección aprobada; detalle pendiente |
 | D-033 | Mantener las cinco herramientas en el MVP; desarrollar por incrementos | Alcance aprobado; orden de implementación propuesto |
 | D-034 | Siguiente etapa de planificación: UX y recorridos antes de definir stack definitivo | Aprobada como secuencia de trabajo |
+| D-035 | MVP con D&D 5e 2014 como única edición implementada; arquitectura extensible para 2024 y otros sistemas sin motor multirreglas anticipado | Aprobada |
 
 > Las decisiones técnicas no se infieren de estas aprobaciones. Revisar el alcance detallado en `03-mvp-scope.md`.

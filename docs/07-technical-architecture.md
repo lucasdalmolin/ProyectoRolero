@@ -63,3 +63,9 @@ No seleccionar tecnologías adicionales sin una necesidad del MVP.
 - Utilizar contenido provisional claramente identificado y fácil de reemplazar; el responsable del proyecto investigará, seleccionará y revisará el contenido definitivo.
 - Mantener contenido separado de los componentes y de la lógica cuando sea práctico, de modo que actualizar textos/preguntas no requiera reescribir la interfaz.
 - Mantener un mínimo de accesibilidad y consistencia visual desde el inicio; no posponer correcciones funcionales de UX bajo el rótulo de estética.
+
+## Identificación visible de despliegues (2026-11-23)
+- El pie de página muestra versión semántica desde `package.json` (actualmente `v0.1.0`) y un ID de compilación en UTC inyectado por Vite.
+- El ID cambia en cada build y permite distinguir despliegues sin modificar manualmente el número de versión.
+- La versión semántica se incrementa deliberadamente cuando se publica una nueva versión funcional; no por cada commit.
+- La visualización del build permite diagnosticar caché o despliegues pendientes, pero no demuestra por sí sola que Vercel haya publicado correctamente; verificar estado del deployment cuando haya dudas.

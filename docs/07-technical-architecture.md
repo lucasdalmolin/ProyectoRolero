@@ -56,3 +56,10 @@ No seleccionar tecnologías adicionales sin una necesidad del MVP.
 - Guías educativas en componentes React con separación de contenido cuando aporte claridad; no imponer un único formato para todo.
 - Aislar el acceso a datos detrás de funciones o módulos para facilitar sustitución futura por API, sin construir hoy una capa de infraestructura compleja.
 - La migración futura a backend no será automática: requerirá contratos, gestión de errores y posibles adaptaciones.
+
+## Prioridad de implementación y contenido (2026-11-23) — acordado
+- Priorizar funcionalidad y presentación sencilla de la información sobre la estética detallada.
+- Construir navegación, componentes, interacciones y diseño responsive antes de completar el contenido editorial.
+- Utilizar contenido provisional claramente identificado y fácil de reemplazar; el responsable del proyecto investigará, seleccionará y revisará el contenido definitivo.
+- Mantener contenido separado de los componentes y de la lógica cuando sea práctico, de modo que actualizar textos/preguntas no requiera reescribir la interfaz.
+- Mantener un mínimo de accesibilidad y consistencia visual desde el inicio; no posponer correcciones funcionales de UX bajo el rótulo de estética.

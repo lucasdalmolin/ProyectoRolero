@@ -82,3 +82,8 @@ La creación, edición, guardado y descarga de fichas de personajes pertenece a 
 - Mantener acordeones independientes y situaciones interactivas.
 - Incorporar desafíos opcionales de 3 a 5 preguntas, accesibles sin completar la guía, con devolución inmediata, resultado y repetición. Sin tiempo límite ni bloqueo de contenido.
 - Primera implementación: Introducción a los juegos de rol, cinco preguntas provisionales, componente reutilizable y datos separados. No incorporar XP ni insignias en el MVP.
+
+## Revisión de experiencia introductoria — 2026-11-24
+- Retirar el desafío educativo de la primera guía por decisión del responsable del proyecto; conservar el componente de quiz sin uso visible por ahora.
+- Probar una miniaventura narrativa con decisiones encadenadas, consecuencias posteriores, finales alternativos, historial y reinicio libre, sin respuestas correctas obligatorias.
+- Primera implementación provisional: La puerta de la vieja torre, tres decisiones por recorrido y dos finales. Datos narrativos separados del componente reutilizable. Pendiente de validación de UX y despliegue.

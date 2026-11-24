@@ -1,0 +1,9 @@
+import type { QuizQuestion } from "../../components/ui/LearningQuiz";
+
+export const introQuestions: QuizQuestion[] = [
+  { id: "story", prompt: "¿Cómo se construye la historia en un juego de rol?", options: ["Siguiendo un guion fijo", "Entre todos, mediante las decisiones de los personajes", "Solamente mediante tiradas de dados"], correctIndex: 1, explanation: "Cada persona interpreta un personaje y sus decisiones contribuyen a la historia." },
+  { id: "director", prompt: "¿Qué hace quien dirige la partida?", options: ["Presenta situaciones y describe lo que sucede", "Decide todas las acciones de los jugadores", "Se limita a contar los puntos"], correctIndex: 0, explanation: "Quien dirige presenta el mundo y los desafíos; los jugadores deciden qué hacen sus personajes." },
+  { id: "materials", prompt: "¿Qué necesitás para empezar a jugar?", options: ["Comprar todas las miniaturas", "Memorizar un manual entero", "Un grupo, imaginación y reglas compartidas"], correctIndex: 2, explanation: "Los materiales dependen del juego. No necesitás una colección de accesorios para empezar." },
+  { id: "actions", prompt: "Tu personaje encuentra una puerta cerrada. ¿Qué puede hacer?", options: ["Solo intentar romperla", "Proponer distintas acciones, como escuchar o golpear", "Esperar obligatoriamente a que otro jugador actúe"], correctIndex: 1, explanation: "Podés proponer distintas acciones según la situación. No siempre hay una única solución." },
+  { id: "dice", prompt: "¿Para qué suelen usarse los dados?", options: ["Para resolver acciones de resultado incierto", "Para decidir cada palabra que dice un personaje", "Para impedir que los jugadores elijan"], correctIndex: 0, explanation: "En muchos juegos, las tiradas ayudan a resolver la incertidumbre; no todas las acciones requieren dados." },
+];

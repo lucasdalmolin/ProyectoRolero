@@ -76,3 +76,9 @@ La creación, edición, guardado y descarga de fichas de personajes pertenece a 
 
 ## Cierre de etapa inicial
 - **2026-11-19:** se considera suficiente la definición de UX para pasar a decisiones técnicas y comenzar desarrollo incremental. Los detalles no resueltos se revisarán durante implementación y validación; este cierre no supone que todos los diseños o contenidos estén finalizados.
+
+## Desafíos educativos — decisión aprobada (2026-11-24)
+- Eliminar el marcado manual de lectura y su barra de progreso: no aportan un beneficio concreto.
+- Mantener acordeones independientes y situaciones interactivas.
+- Incorporar desafíos opcionales de 3 a 5 preguntas, accesibles sin completar la guía, con devolución inmediata, resultado y repetición. Sin tiempo límite ni bloqueo de contenido.
+- Primera implementación: Introducción a los juegos de rol, cinco preguntas provisionales, componente reutilizable y datos separados. No incorporar XP ni insignias en el MVP.

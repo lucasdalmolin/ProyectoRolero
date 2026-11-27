@@ -109,3 +109,9 @@ La creación, edición, guardado y descarga de fichas de personajes pertenece a 
 - No mostrar probabilidades de éxito al principiante.
 - Calculador con entrada de expresión y selectores sincronizados, resultados individuales y total. Primera versión limitada a 1–20 dados del mismo tipo y modificador entero opcional.
 - Primera implementación subida, pendiente de validación de despliegue y UX. Selector textual de dados; iconografía pendiente.
+
+## Reorganización de Guía de dados
+- Sustituir tirador individual por ejemplo de Destreza, competencia y Pericia del pícaro; conectar con calculador.
+- Referencia de dados desplegable; añadir ejemplo de ataque y daño, incluidos críticos. Mantener ventaja/desventaja sin probabilidades.
+- Reservar calculador completo de características y competencias para Conceptos y reglas básicas, con lógica reutilizable.
+- Cambios implementados; pendiente de validación.

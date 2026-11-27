@@ -87,3 +87,8 @@ La creación, edición, guardado y descarga de fichas de personajes pertenece a 
 - Retirar el desafío educativo de la primera guía por decisión del responsable del proyecto; conservar el componente de quiz sin uso visible por ahora.
 - Probar una miniaventura narrativa con decisiones encadenadas, consecuencias posteriores, finales alternativos, historial y reinicio libre, sin respuestas correctas obligatorias.
 - Primera implementación provisional: La puerta de la vieja torre, tres decisiones por recorrido y dos finales. Datos narrativos separados del componente reutilizable. Pendiente de validación de UX y despliegue.
+
+## Validación de miniaventura — 2026-11-27
+- El responsable del proyecto aprueba la experiencia narrativa encadenada como dirección de la primera herramienta.
+- Incorporado contador opcional de pasos: tres decisiones y desenlace (4 pasos). Pendiente de confirmar despliegue.
+- Cerrar esta iteración funcional y avanzar a Cómo funciona una partida; contenido definitivo y validación final siguen pendientes.

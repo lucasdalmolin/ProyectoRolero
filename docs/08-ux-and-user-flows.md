@@ -98,3 +98,8 @@ La creación, edición, guardado y descarga de fichas de personajes pertenece a 
 - Objetivo: comprender que el DM también juega, improvisa y colabora; no formar directores de juego.
 - Simulación como elemento principal, información complementaria antes/durante/después. Contenido provisional separado de la interfaz.
 - Primera implementación subida; pendiente de validar despliegue y experiencia.
+
+## Validación de segunda herramienta — 2026-11-27
+- Primera versión funcional de Cómo funciona una partida aprobada por el responsable del proyecto tras probarla.
+- Mantener el concepto de dos perspectivas; diferir la revisión minuciosa de pantallas y contenido hasta contar con las herramientas del MVP.
+- Siguiente herramienta: Guía de dados.

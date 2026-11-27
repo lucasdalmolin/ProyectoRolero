@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export type AdventureChoice = { label: string; next: string; consequence: string };
 export type AdventureScene = { title: string; text: string; choices?: AdventureChoice[]; ending?: string };
-export type Adventure = { title: string; intro: string; start: string; scenes: Record<string, AdventureScene> };
+export type Adventure = { title: string; intro: string; start: string; totalSteps?: number; scenes: Record<string, AdventureScene> };
 
 export function BranchingAdventure({ adventure }: { adventure: Adventure }) {
   const [history, setHistory] = useState<AdventureChoice[]>([]);
@@ -12,7 +12,7 @@ export function BranchingAdventure({ adventure }: { adventure: Adventure }) {
     <h2 id="adventure-title" className="mb-3 text-2xl font-semibold">{adventure.title}</h2>
     <p className="mb-5 text-stone-600">{adventure.intro}</p>
     <div aria-live="polite" className="space-y-3">
-      <p className="text-sm font-medium text-stone-500">{scene.ending ? "Final de la aventura" : `Decisión ${history.length + 1}`}</p>
+      <p className="text-sm font-medium text-stone-500">{adventure.totalSteps ? `Paso ${history.length + 1} de ${adventure.totalSteps}${scene.ending ? " · Desenlace" : ""}` : scene.ending ? "Final de la aventura" : `Decisión ${history.length + 1}`}</p>
       <h3 className="text-xl font-semibold">{scene.title}</h3>
       <p className="leading-relaxed text-stone-700">{scene.text}</p>
       {scene.ending && <p className="rounded-lg bg-amber-50 p-4 text-amber-950">{scene.ending}</p>}

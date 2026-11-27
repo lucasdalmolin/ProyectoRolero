@@ -92,3 +92,9 @@ La creación, edición, guardado y descarga de fichas de personajes pertenece a 
 - El responsable del proyecto aprueba la experiencia narrativa encadenada como dirección de la primera herramienta.
 - Incorporado contador opcional de pasos: tres decisiones y desenlace (4 pasos). Pendiente de confirmar despliegue.
 - Cerrar esta iteración funcional y avanzar a Cómo funciona una partida; contenido definitivo y validación final siguen pendientes.
+
+## Cómo funciona una partida — concepto aprobado (2026-11-27)
+- Simulación lineal de cuatro escenas con perspectivas intercambiables de jugador y DM, sin perder progreso.
+- Objetivo: comprender que el DM también juega, improvisa y colabora; no formar directores de juego.
+- Simulación como elemento principal, información complementaria antes/durante/después. Contenido provisional separado de la interfaz.
+- Primera implementación subida; pendiente de validar despliegue y experiencia.

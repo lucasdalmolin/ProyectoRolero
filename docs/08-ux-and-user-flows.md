@@ -103,3 +103,9 @@ La creación, edición, guardado y descarga de fichas de personajes pertenece a 
 - Primera versión funcional de Cómo funciona una partida aprobada por el responsable del proyecto tras probarla.
 - Mantener el concepto de dos perspectivas; diferir la revisión minuciosa de pantallas y contenido hasta contar con las herramientas del MVP.
 - Siguiente herramienta: Guía de dados.
+
+## Guía de dados — 2026-11-27
+- Tres módulos aprobados: conocer dados, interpretar y calcular tiradas, experimentar con ventaja/desventaja.
+- No mostrar probabilidades de éxito al principiante.
+- Calculador con entrada de expresión y selectores sincronizados, resultados individuales y total. Primera versión limitada a 1–20 dados del mismo tipo y modificador entero opcional.
+- Primera implementación subida, pendiente de validación de despliegue y UX. Selector textual de dados; iconografía pendiente.

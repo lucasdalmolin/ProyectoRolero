@@ -4,6 +4,7 @@ export const towerAdventure: Adventure = {
   title: "La puerta de la vieja torre",
   intro: "Una aldea necesita recuperar una medicina guardada en una torre. Elegí qué hace tu personaje y descubrí cómo una decisión cambia las siguientes.",
   start: "door",
+  totalSteps: 4,
   scenes: {
     door: { title: "Una puerta cerrada", text: "Llegás a la torre al anochecer. Hay luz detrás de una ventana y la puerta está cerrada. ¿Qué hacés?", choices: [
       { label: "Golpear y presentarme", next: "friendly", consequence: "El guardia te recibe sin sospechas." },
